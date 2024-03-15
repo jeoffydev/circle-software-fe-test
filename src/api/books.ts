@@ -3,7 +3,7 @@ import axios from "axios";
 if(window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1"){ 
     axios.defaults.baseURL = 'http://localhost:8000/books' 
 } else {
-    axios.defaults.baseURL = 'http://localhost/domain' 
+    axios.defaults.baseURL = 'https://circle-test-b73d1bde0ba6.herokuapp.com/books' 
 }
 
 
